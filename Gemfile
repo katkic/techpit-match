@@ -37,6 +37,8 @@ gem 'devise'
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
 gem 'font-awesome-sass', '~> 5.12.0'
+gem 'carrierwave', '~> 2.0'
+gem "mini_magick"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -45,6 +47,7 @@ group :development, :test do
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
   gem 'pry-rails'
+
 end
 
 group :development do
